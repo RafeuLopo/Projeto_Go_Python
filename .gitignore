@@ -1,0 +1,14 @@
+# Ignorar a pasta Extracted_Parquet
+Extracted_Parquet/
+
+# Ignorar a pasta RAR_Files
+RAR_Files/
+
+# Ignorar a pasta Uncompressed_Files
+Uncompressed_Files/
+
+# Ignorar a pasta Unzip_Function
+Unzip_Function/
+
+# Ignorar Testes
+Tests/
