@@ -58,14 +58,14 @@ type ContractData struct {
 	TxtFonte                         string
 	DscSubFonte                      string
 	CodAcaoUltimoEmpenho             string
-	VlrInvestimento                  string
-	VlrRepasse                       string
-	VlrContrapartida                 string
-	VlrEmpenhado                     string
-	VlrDesembolsado                  string
-	VlrDesbloqueado                  string
-	VlrPago                          string
-	VlrTaxaAdm                       string
+	VlrInvestimento                  *float64
+	VlrRepasse                       *float64
+	VlrContrapartida                 *float64
+	VlrEmpenhado                     *float64
+	VlrDesembolsado                  *float64
+	VlrDesbloqueado                  *float64
+	VlrPago                          *float64
+	VlrTaxaAdm                       *float64
 	PrcExecucaoFisica                *float64
 	QtdUh                            int
 	QtdEntregues                     *float64
