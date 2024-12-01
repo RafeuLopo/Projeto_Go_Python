@@ -91,7 +91,7 @@ func parseDate(dateStr string) *time.Time {
 	if dateStr == "" {
 		return nil
 	}
-	t, err := time.Parse("2006-01-02 15:04:05", dateStr)
+	t, err := time.Parse("2006/01/02 15:04:05", dateStr)
 	if err != nil {
 		return nil
 	}
@@ -365,7 +365,7 @@ func nullableToString(val interface{}) string {
 		if v == nil {
 			return "0"
 		}
-		return v.Format("2006-01-02 15:04:05")
+		return v.Format("2006/01/02 15:04:05")
 	}
 	return fmt.Sprintf("%v", val)
 }
@@ -374,7 +374,7 @@ func nullableDateToString(val *time.Time) string {
 	if val == nil {
 		return "0"
 	}
-	return val.Format("2006-01-02")
+	return val.Format("2006/01/02 15:04:05")
 }
 
 func Treatment() {
